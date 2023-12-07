@@ -1,0 +1,77 @@
+/* Custom PyQt5 Stylesheet */
+
+/* General Style */
+QWidget {
+    background-color: #f0f0f0;
+}
+
+QMainWindow {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: 1px solid #4CAF50;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+QPushButton:hover {
+    background-color: #45a049;
+}
+
+/* Line Edit */
+QLineEdit {
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+/* Progress Bar */
+QProgressBar {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    text-align: center; /* Added this line */
+}
+
+QProgressBar::chunk {
+    background-color: #4CAF50;
+    width: 10px;
+}
+
+/* Text Browser */
+QTextBrowser {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Combo Box */
+QComboBox {
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+/* Scroll Bar */
+QScrollBar:vertical {
+    border: 1px solid #cccccc;
+    background: #f0f0f0;
+    width: 10px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #4CAF50;
+    border: 1px solid #4CAF50;
+    border-radius: 5px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    background: none;
+}
+
+/* Example Usage: Apply Stylesheet in PyQt5 Application */
