@@ -30,6 +30,14 @@ The PyQt5 Weather App is a simple desktop application that allows users to check
 2. Obtain an API key from [OpenWeatherMap](https://openweathermap.org/).
 3. Replace `YOUR_OPENWEATHERMAP_API_KEY` in the code with your actual API key.
 
+## Screenshots
+Include screenshots or GIFs showcasing the app's interface and functionality.
+
+## License
+This project is licensed under the MIT License.
+
+## Acknowledgments
+OpenWeatherMap for providing weather data.
 ## How to Run
 
 ```bash
